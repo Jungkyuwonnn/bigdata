@@ -1,0 +1,27 @@
+package 삼항연산자;
+
+import java.util.Scanner;
+
+public class Ex03농구공예제 {
+
+	public static void main(String[] args) {
+
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("농구공의 개수를 입력하시오: ");
+		int num1 = sc.nextInt();
+		int num2 = num1 / 5 + 1;
+		System.out.print("필요한 상자의 개수: " + num2);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
