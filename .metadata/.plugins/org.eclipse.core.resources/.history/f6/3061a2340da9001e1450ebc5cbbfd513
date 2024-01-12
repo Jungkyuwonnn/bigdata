@@ -1,0 +1,39 @@
+package switch문;
+
+import java.util.Scanner;
+
+public class Ex01학점계산프로그램 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int totalScore = sc.nextInt();
+		
+		switch(totalscore>=90) {
+		case 90:
+			System.out.println("A학점입니다!");
+			break;
+		case 80:
+			System.out.println("B학점입니다!");
+			break;
+		case 70:
+			System.out.println("C학점입니다.");
+			break;
+		default:
+			System.out.println("D학점입니다.");
+			break;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
